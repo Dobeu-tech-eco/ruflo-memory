@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" fill="url(#bg)"/>
+  <text x="480" y="48" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, system-ui, sans-serif" font-size="22" font-weight="600">Ruflo Swarm Topology</text>
+  <text x="480" y="76" text-anchor="middle" fill="#94a3b8" font-family="Consolas, monospace" font-size="13">swarm-1784182072890-t6grp8 · hierarchical-mesh · max-agents 8 · specialized</text>
+  <rect x="380" y="110" width="200" height="56" rx="8" fill="#0ea5e9"/>
+  <text x="480" y="144" text-anchor="middle" fill="#0f172a" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600">Coordinator (Queen)</text>
+  <line x1="480" y1="166" x2="160" y2="260" stroke="#64748b" stroke-width="2"/>
+  <line x1="480" y1="166" x2="320" y2="260" stroke="#64748b" stroke-width="2"/>
+  <line x1="480" y1="166" x2="480" y2="260" stroke="#64748b" stroke-width="2"/>
+  <line x1="480" y1="166" x2="640" y2="260" stroke="#64748b" stroke-width="2"/>
+  <line x1="480" y1="166" x2="800" y2="260" stroke="#64748b" stroke-width="2"/>
+  <rect x="80" y="260" width="160" height="48" rx="6" fill="#334155" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="160" y="290" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, sans-serif" font-size="13">Architect</text>
+  <rect x="240" y="260" width="160" height="48" rx="6" fill="#334155" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="320" y="290" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, sans-serif" font-size="13">Coder</text>
+  <rect x="400" y="260" width="160" height="48" rx="6" fill="#334155" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="480" y="290" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, sans-serif" font-size="13">Researcher</text>
+  <rect x="560" y="260" width="160" height="48" rx="6" fill="#334155" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="640" y="290" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, sans-serif" font-size="13">Tester</text>
+  <rect x="720" y="260" width="160" height="48" rx="6" fill="#334155" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="800" y="290" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, sans-serif" font-size="13">Reviewer</text>
+  <line x1="160" y1="308" x2="320" y2="308" stroke="#475569" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="320" y1="308" x2="480" y2="308" stroke="#475569" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="480" y1="308" x2="640" y2="308" stroke="#475569" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="640" y1="308" x2="800" y2="308" stroke="#475569" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="160" y1="308" x2="240" y2="400" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="480" y1="308" x2="480" y2="400" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="800" y1="308" x2="720" y2="400" stroke="#64748b" stroke-width="1.5"/>
+  <rect x="160" y="400" width="160" height="48" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1"/>
+  <text x="240" y="430" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, sans-serif" font-size="12">Perf Engineer</text>
+  <rect x="400" y="400" width="160" height="48" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1"/>
+  <text x="480" y="430" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, sans-serif" font-size="12">Security Auditor</text>
+  <rect x="640" y="400" width="160" height="48" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1"/>
+  <text x="720" y="430" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, sans-serif" font-size="12">Backend Dev</text>
+  <rect x="40" y="500" width="880" height="110" rx="8" fill="#020617" stroke="#334155"/>
+  <text x="60" y="530" fill="#94a3b8" font-family="Consolas, monospace" font-size="12">Session: 60d55dc5-4807-4af9-8681-4fcd049d19a9</text>
+  <text x="60" y="550" fill="#94a3b8" font-family="Consolas, monospace" font-size="12">Project: C:\Users\JeremyWilliams\repos\new-dobeu-net</text>
+  <text x="60" y="570" fill="#94a3b8" font-family="Consolas, monospace" font-size="11">npx @claude-flow/cli@latest swarm init --topology hierarchical --max-agents 8 --strategy specialized --v3-mode</text>
+  <text x="60" y="590" fill="#64748b" font-family="Consolas, monospace" font-size="11">Artifact synthesized 2026-07-17 (no generated image in 48h sweep)</text>
+</svg>

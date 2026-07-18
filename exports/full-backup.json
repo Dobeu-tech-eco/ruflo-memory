@@ -1,0 +1,188 @@
+{
+  "schema": "ruflo-memory-export/v1",
+  "exportedAt": "2026-07-17T23:06:50.385Z",
+  "namespace": null,
+  "count": 18,
+  "entries": [
+    {
+      "key": "swarm-init-new-dobeu-net-60d55dc5",
+      "namespace": "patterns",
+      "value": "Swarm init recovered from session 60d55dc5-4807-4af9-8681-4fcd049d19a9.jsonl in project new-dobeu-net. Swarm ID: swarm-1784182072890-t6grp8. Topology: hierarchical-mesh. Max Agents: 8. Strategy: specialized. V3 Mode Enabled. Command: npx @claude-flow/cli@latest swarm init --topology hierarchical --max-agents 8 --strategy specialized --v3-mode. Source: C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\60d55dc5-4807-4af9-8681-4fcd049d19a9.jsonl. Archive: C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\60d55dc5-4807-4af9-8681-4fcd049d19a9.jsonl. Artifact: C:\\Users\\JeremyWilliams\\ruflo-memory\\artifacts\\swarm-1784182072890-t6grp8.png",
+      "createdAt": 1784329457759,
+      "updatedAt": 1784329457759,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 713
+    },
+    {
+      "key": "archive-2026-07-17",
+      "namespace": "patterns",
+      "value": "Ruflo session archive 2026-07-17: 54 Claude Code jsonl sessions (24h) + force-included swarm session 60d55dc5. Swarm ID swarm-1784182072890-t6grp8 hierarchical-mesh max-agents 8 specialized. Local mirror C:\\Users\\JeremyWilliams\\ruflo-memory. Artifact PNG/SVG under artifacts/. memory.md bridged allProjects.",
+      "createdAt": 1784329451590,
+      "updatedAt": 1784329451590,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 307
+    },
+    {
+      "key": "claude:C--Users-JeremyWilliams-repos-ikram-meme-and-co:MEMORY:MEMORY",
+      "namespace": "claude-memories",
+      "value": "# Project Memory — ikram-meme-and-co (Ikram & Co. — renamed from \"Arab Stickers Co.\" 2026-07-15)\n\n- [Supabase + Vercel deploy](ikram-supabase-vercel-deploy.md) — prod on www.dobeu.store; NEXT_PUBLIC var mapping + build-time inlining gotcha; apply migrations via us-east-1 session pooler\n- [Deferred prod secrets](ikram-deferred-prod-secrets.md) — Stripe/Resend/ADMIN_EMAILS still missing in Production\n- [Domain & deploy pattern](ikram-domain-and-deploy-pattern.md) — prod is dobeu.store NOT dobeu.shop; git pushes auto-cancel, deploy via `vercel --prod` CLI; prod deploy/secret-pull gated in auto mode",
+      "createdAt": 1784329450375,
+      "updatedAt": 1784329450375,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 602
+    },
+    {
+      "key": "claude:C--Users-JeremyWilliams-repos-ikram-meme-and-co:ikram-supabase-vercel-deploy:ikram-supabase-vercel-deploy",
+      "namespace": "claude-memories",
+      "value": "\"Arab Stickers Co.\" (ikram-meme-and-co) production runs on Vercel team `dobeutechnology`\n(project `prj_HXhMza5hoe0Oj4GHbbNBVN9Akpar`), domain **https://www.dobeu.store** (+ the\n`ikram-meme-and-co-dobeutechnology.vercel.app` alias). Deploy protection (SSO) was turned OFF\nso the storefront is publicly reachable (`vercel project protection disable ikram-meme-and-co --sso`).\n\nHosted DB is **Supabase via the Vercel Marketplace integration**, project ref\n`jgvpornjuogveltufvle`, region **us-east-1**. Gotchas that bit us (2026-07-15):\n\n1. The integration provisions `SUPABASE_URL` / `SUPABASE_ANON_KEY` / `SUPABASE_SECRET_KEY`, but the\n   app reads `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY` / `SUPABASE_SERVICE_ROLE_KEY`.\n   Those NEXT_PUBLIC_* names must be set explicitly. They are **build-time inlined** — after setting\n   them you MUST redeploy; the old build had empty strings → `Error: Your project's URL and Key are\n   required to create a Supabase client!` on every `[locale]` page.\n2. The integration does NOT run repo migrations. The DB was empty (PostgREST `PGRST205 Could not find\n   the table 'public.products'`). Apply with:\n   `npx supabase db push --db-url \"postgresql://postgres.jgvpornjuogveltufvle:<PW>@aws-0-us-east-1.pooler.supabase.com:5432/postgres\" --include-seed`\n   The direct host `db.<ref>.supabase.co` does NOT resolve — use the **session pooler** (port 5432,\n   user `postgres.<ref>`). Local `supabase db push`/`db:types` also need Docker Desktop running, which\n   was down on this machine.\n3. Diagnose prod errors with the Vercel MCP `get_runtime_errors` / `get_runtime_logs`. `vercel env pull`\n   returns EMPTY values for the integration's vars because they are marked **Sensitive** (write-only) —\n   don't conclude \"empty in prod\" from a blank pull; check the live app instead.\n\nSee [[ikram-deferred-prod-secrets]].",
+      "createdAt": 1784329450263,
+      "updatedAt": 1784329450263,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 1865
+    },
+    {
+      "key": "claude:C--Users-JeremyWilliams-repos-ikram-meme-and-co:ikram-domain-and-deploy-pattern:ikram-domain-and-deploy-pattern",
+      "namespace": "claude-memories",
+      "value": "Production domain for the Ikram & Co. store is **www.dobeu.store / dobeu.store** — NOT dobeu.shop\n(the user sometimes calls it dobeu.shop, but that host isn't attached to the project and returns 525).\n\nVercel project: `ikram-meme-and-co` (`prj_HXhMza5hoe0Oj4GHbbNBVN9Akpar`), team `dobeutechnology`\n(`team_8K43hpr1Nzs0UsjjUCGh8OBK`).\n\n**Deploy mechanics (non-obvious):** GitHub push-triggered deploys are auto-CANCELED on this project\n(they show state CANCELED with 0 build logs). Real production builds are done via the Vercel CLI\n(`vercel --prod`) — those carry an `actor` field. So pushing a branch is not enough to update the site.\n\nIn auto/permission mode, `vercel --prod` and `vercel env pull --environment=production` are BLOCKED\n(production deploy / production-secrets reads) — the user must run those themselves. Preview deploys\n(`vercel` with no --prod) ARE allowed and build with working Supabase env. See [[ikram-supabase-vercel-deploy]]\nand [[ikram-deferred-prod-secrets]].",
+      "createdAt": 1784329450087,
+      "updatedAt": 1784329450087,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 986
+    },
+    {
+      "key": "claude:C--Users-JeremyWilliams-repos-ikram-meme-and-co:ikram-deferred-prod-secrets:ikram-deferred-prod-secrets",
+      "namespace": "claude-memories",
+      "value": "As of 2026-07-15 the ikram-meme-and-co production storefront was intentionally shipped\n\"Supabase-only\" (catalog browsable). These required env vars are **still absent** in Vercel\nProduction and must be added before checkout / email / admin work:\n\n- `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET` — checkout + webhook are non-functional without them.\n- `RESEND_API_KEY`, `RESEND_FROM_EMAIL` — order-confirmation emails won't send.\n- `ADMIN_EMAILS` — admin dashboard login denies everyone until set (magic-link email allowlist).\n\n`NEXT_PUBLIC_SITE_URL` WAS set (to https://www.dobeu.store). When adding the Stripe webhook secret,\nalso register the Vercel webhook endpoint in Stripe. See [[ikram-supabase-vercel-deploy]].",
+      "createdAt": 1784329450018,
+      "updatedAt": 1784329450018,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 716
+    },
+    {
+      "key": "claude:C--Users-JeremyWilliams:wsl-claude-config-mirror:wsl-claude-config-mirror",
+      "namespace": "claude-memories",
+      "value": "The WSL2 Ubuntu 24.04 distro (user `jeremyw`, `/home/jeremyw`) on this machine was given a mirror of the Windows `~/.claude` config on 2026-07-14. Setup: nvm + Node 22 (`~/.nvm`, default alias), `@anthropic-ai/claude-code` global, three stdio MCP servers re-registered under Linux npx (memory, sequential-thinking, Context7 — all Connected). Portable content (agents, commands, skills=377, rules, system-prompts, tools) is mirrored by **`~/.claude/sync-from-windows.sh`** (rsync from `/mnt/c/Users/JeremyWilliams/.claude`, all excludes anchored with leading `/` so they don't nuke same-named files inside skills). Windows = author, WSL = mirror; re-run the sync after Windows-side skill/agent edits. The 3 PowerShell hooks + statusline were ported to **bash + python3** (python3, not jq, to avoid a sudo apt install) at `~/.claude/hooks/*.sh` and `~/.claude/statusline.sh`; `settings.json`/`settings.local.json`/`CLAUDE.md` are WSL-specific (bash hook commands, `/home/jeremyw` paths) and excluded from the sync so they persist. WSL auth is separate from Windows (`.credentials.json` never copied). Plan file: `~/.claude/plans/quizzical-enchanting-hennessy.md`.\n\n**Still requires the user (interactive, can't be automated):** run `claude` + `/login` in WSL for OAuth; the Composio plugin re-installs itself on first launch from the marketplace in settings.json.\n\n**Git-Bash → wsl.exe scripting gotchas (these cost many retries — heed them):** The Claude Code `Bash` tool is Git Bash (MSYS2), and driving WSL through it has two independent traps. (1) **MSYS path conversion** rewrites POSIX args like `/usr/bin/bash` or `/home/jeremyw` into `C:/Program Files/Git/...` — prefix the whole command with `MSYS_NO_PATHCONV=1`. (2) **Inline shell variables get eaten**: a `$VAR` (or `VAR=x; ...$VAR`) written inside `wsl.exe -- bash -lc '...'` frequently expands to empty, and `$HOME` is often unset in that context. Reliable pattern: author a **self-contained script file** (with its own `export HOME=/home/jeremyw` and its own variables), write it with the Write tool to the scratchpad, then `sed 's/\\r$//' /mnt/c/.../file > /tmp/file && bash /tmp/file` using **literal absolute paths only** in the inline command. Variables work fine *inside* the script file — only the inline `bash -lc` string mangles them. `/mnt/c` also has a brief write-visibility lag (a just-written file can read as 0 bytes for a moment).",
+      "createdAt": 1784329449896,
+      "updatedAt": 1784329449896,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 2407
+    },
+    {
+      "key": "claude:C--Users-JeremyWilliams:MEMORY:MEMORY",
+      "namespace": "claude-memories",
+      "value": "- [Claude config restore 2026-07](claude-config-restore-2026-07.md) — canonical config repo, and four leaked API keys still awaiting rotation.\n- [WSL Claude config mirror](wsl-claude-config-mirror.md) — WSL now mirrors ~/.claude via sync-from-windows.sh; plus Git-Bash→wsl.exe scripting gotchas (MSYS_NO_PATHCONV, variable-eating).\n- [AgentBox + Ruflo Windows setup](agentbox-ruflo-windows-setup.md) — both installed/working; the rsync symlink fix, CODEX_BIN_PATH, ruflo MCP dedup, and pending E2B/Vercel providers.\n- [claude-flow v3 core repo](claude-flow-v3-core-repo.md) — new repos\\claude-flow-v3-core: DDD foundation + task-management done; 4 domains remain.",
+      "createdAt": 1784329449824,
+      "updatedAt": 1784329449824,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 663
+    },
+    {
+      "key": "claude:C--Users-JeremyWilliams:claude-flow-v3-core-repo:claude-flow-v3-core-repo",
+      "namespace": "claude-memories",
+      "value": "`C:\\Users\\JeremyWilliams\\repos\\claude-flow-v3-core` was created 2026-07-17 via `/v3-core-implementation`. User chose a **new standalone repo** (not the vendored upstream clone at `repos\\ruflo-setup\\ruflo\\`) and scope **foundation + 1 domain**.\n\nDone: shared kernel (immutable Entity/VO/AggregateRoot/DomainEvent, InMemoryEventBus, token-based DI — no inversify/decorators), task-management domain (immutable Task aggregate whose transitions return new instances, node:sqlite repository with `priority_rank` numeric ordering), AssignTaskUseCase (zod boundary validation, `Result<T,E>` returns). 79 tests, 98% coverage, 80% thresholds enforced. Local git only, no remote.\n\nRemaining per skill blueprint: session-management, health-monitoring, lifecycle-management, event-coordination domains + microkernel. Follow the established patterns (immutability, typed errors, `.js` import extensions under NodeNext ESM, `types: [\"node\"]` in tsconfig).",
+      "createdAt": 1784329449742,
+      "updatedAt": 1784329449742,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 941
+    },
+    {
+      "key": "claude:C--Users-JeremyWilliams:claude-config-restore-2026-07:claude-config-restore-2026-07",
+      "namespace": "claude-memories",
+      "value": "After the 2026-07-13 Windows reset, `~/.claude` was restored and consolidated. The canonical source of truth is **`Dobeu-tech-eco/dobeutech-claude-code-custom`** (branch `consolidate/windows-v2`, PR #3) — install it with `npm i -g @jwdobeutechsolutions/dobeutech-claude-code-custom`. The other config repos (`fk-everything-claude-code`, `claudeconfig`, `claudecode-config`, `dobeu-claude-skills`) are noise or forks; do not restore from them.\n\n**Open action as of 2026-07-13 — four live API keys are still un-rotated**, committed in git history in `dobeutech/claudecode-config` (private): a GitHub PAT, OpenAI key, Notion token, and Tavily key, plus a `.credentials.json`. Deleting the file does not help — they are in history, so the repo must be deleted. The same `.env-mcp` also sits in a git repo on `G:\\My Drive` (that copy appears never to have been pushed). Full checklist with rotation URLs is at `~/.claude/SECURITY_REMEDIATION.md`.\n\nThe GitHub PAT is exposed on a *second* independent path too: the 24-credential Doppler vault leak documented in `dobeu-composio-automate`, which was marked \"RISK-ACCEPTED — rotation declined\" in April 2026. That decision was made without knowing about the git-history exposure, so it is worth revisiting.\n\nAlso unresolved: 23 `@inline` plugins were in use pre-reset and are gone. Only `datadog` is recoverable from the official marketplace; only 4 (`beads`, `holocron`, `subtask`, `wit`) were ever actually invoked. See `~/.claude/PLUGIN_RECOVERY.md`.\n\n**Update 2026-07-17 (config audit):** A *fifth*, separate secret surfaced — the Composio MCP `X-API-Key` (`ck_wNN…`) sat in plaintext in the home-level `.claude.json`. Now remediated: user revoked it at Composio; the header was swapped to `${COMPOSIO_API_KEY}` (set the env var with the new key via `[Environment]::SetEnvironmentVariable(...,'User')`, then restart). The stale `~/.claude/backups/` snapshot (only other on-disk copy of the dead key + OAuth PII) was deleted. **The four git-history keys above (GitHub PAT, OpenAI, Notion, Tavily) + `.credentials.json` are still OPEN.** Backup split clarified: `Dobeu-tech-eco/dobeutech-claude-code-custom` is the **public** npm distributable; the new **private** `Dobeu-tech-eco/claude-code-config-backup` holds the raw machine `~/.claude` backup (secrets gitignored via whitelist). Audit also disabled 56 zero-use plugins (131→75 enabled), archived dup agents/skills to `_archive/`, dropped overlapping PowerShell hooks, and added a daily Windows scheduled-task auto-commit. See [[wsl-claude-config-mirror]].",
+      "createdAt": 1784329449516,
+      "updatedAt": 1784329449516,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 2555
+    },
+    {
+      "key": "claude:C--Users-JeremyWilliams:agentbox-ruflo-windows-setup:agentbox-ruflo-windows-setup",
+      "namespace": "claude-memories",
+      "value": "AgentBox (`@madarco/agentbox` v0.26.1) and Ruflo (`ruflo` v3.32.0) are installed and working on this native-Windows host (Docker provider; WSL Ubuntu-24.04 exists but is stopped/unused). Set up 2026-07-16. Tutorial artifact: https://claude.ai/code/artifact/a9373e4b-3be3-4c1e-8648-aa7f91a93cbe\n\n**Windows-specific facts (durable, non-obvious):**\n- **Box-seed rsync fails on `~/.agents` skill symlinks.** `agentbox create/claude` rsyncs `~/.claude` into the box and treats any non-zero rsync exit as fatal (container torn down → box shows \"missing\"). Absolute-path symlinks under `~/.claude/skills/` pointing into `~/.agents/skills/` don't resolve in the Linux helper → rsync code 23. Fix: dereference them to real dirs (`rm ~/.claude/skills/<s> && cp -rL ~/.agents/skills/<s> ~/.claude/skills/<s>`). If a sync script recreates the symlinks, this breaks again — re-apply.\n- **`CODEX_BIN_PATH` must point at the native `codex.exe`** for `agentbox install codex` / codex detection to work (bare `codex` spawn can't resolve the `.cmd` shim on Windows). Persisted as a User env var → `...\\node_modules\\@openai\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\bin\\codex.exe`.\n- **npm 12 blocks postinstall scripts by default** — opencode-ai needs `--allow-scripts=opencode-ai,@homebridge/node-pty-prebuilt-multiarch`.\n- **Ruflo MCP deduped**: removed the standalone `ruflo` (local scope); kept `plugin:ruflo-core:ruflo`. `ruflo doctor` warns \"MCP Servers: ruflo not found\" — that's a false positive (naive name match); do NOT re-add the standalone.\n\n**In-box agents**: claude/codex/opencode all present + AgentBox Codex plugin enabled in `~/.codex/config.toml`. Grok & Gemini can't run in a box (rescue lanes only — grok MCP plugin + `grok:/codex:/gemini:rescue` skills, all authed).\n\n**Pending (needs Jeremy's accounts):** E2B (`agentbox e2b login`, key from e2b.dev) and Vercel (`agentbox vercel login` — needs VERCEL_TOKEN+TEAM_ID+PROJECT_ID) cloud providers. See [[claude-config-restore-2026-07]].",
+      "createdAt": 1784329449254,
+      "updatedAt": 1784329449254,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 2019
+    },
+    {
+      "key": "rules-audit-2026-07",
+      "namespace": "patterns",
+      "value": "Baseline rules audit 2026-07-17: created ~/.claude/rules/ruflo.md (memory namespacing, session lifecycle, swarm discipline, verification/safety, config hygiene) and ~/.claude/rules/continuous-improvement.md (learning capture, weekly light review, monthly deep audit, escalation to hooks/root-cause after 3+ repeat failures). Local CLAUDE.md (home) wired to both. Existing rules inventory at baseline: agents, coding-style, git-workflow, hooks, patterns, performance, security, startup, testing, ccg-*. Known duplication to watch: repos\\CLAUDE.md and repos\\ruflo-setup\\CLAUDE.md mirror home CLAUDE.md and were NOT updated — reconcile at next monthly audit or de-mirror.",
+      "createdAt": 1784283370384,
+      "updatedAt": 1784283370384,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 668
+    },
+    {
+      "key": "ruflo-rules-continuous-improvement",
+      "namespace": "horizons",
+      "value": "{\"objective\":\"Keep the ruflo rules set (global ~/.claude/rules + local CLAUDE.md) accurate, lean, and evidence-driven via systematic review\",\"established\":\"2026-07-17\",\"cadence\":{\"weekly\":\"light review: memory_stats, session_list, cost trend, new patterns dedupe\",\"monthly\":\"deep audit: accuracy, usage, cost, conflicts across all rules files; stamp review headers; sync G: backup\"},\"currentMilestone\":\"Baseline established: ruflo.md + continuous-improvement.md created, local CLAUDE.md wired\",\"progressPct\":10,\"nextReviewDue\":\"2026-07-24\",\"targetState\":\"Every rules file carries a fresh review stamp; recurring failures produce hooks/skills, not prose; memory patterns namespace actively curated\",\"drift\":\"none\"}",
+      "createdAt": 1784283366651,
+      "updatedAt": 1784283366651,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 713
+    },
+    {
+      "key": "session-d1cda0c5-cf57-4d8d-bb1c-3e644acfd4ef",
+      "namespace": "cost-tracking",
+      "value": "{sessionId:d1cda0c5-cf57-4d8d-bb1c-3e644acfd4ef,cwd:C:\\\\Users\\\\JeremyWilliams,startedAt:2026-07-17T09:57:09.008Z,endedAt:2026-07-17T09:57:23.830Z,messageCount:2,byModel:{claude-haiku-4-5-20251001:{tier:haiku,input_tokens:20,output_tokens:1742,cache_creation_input_tokens:213192,cache_read_input_tokens:0,messages:2,cost_usd:0.0661401}},byTier:{haiku:0.0661401,sonnet:0,opus:0,unknown:0},total_cost_usd:0.0661401,capturedAt:2026-07-17T09:57:24.950Z}",
+      "createdAt": 1784282246827,
+      "updatedAt": 1784282246827,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 448
+    },
+    {
+      "key": "session-9eff580b-7494-42cf-95db-286f0966cbb2",
+      "namespace": "cost-tracking",
+      "value": "{sessionId:9eff580b-7494-42cf-95db-286f0966cbb2,cwd:C:\\\\Users\\\\JeremyWilliams,startedAt:2026-07-17T06:37:10.657Z,endedAt:2026-07-17T09:57:02.676Z,messageCount:47,byModel:{claude-fable-5:{tier:unknown,input_tokens:8,output_tokens:6520,cache_creation_input_tokens:494048,cache_read_input_tokens:110436,messages:4,cost_usd:0},claude-opus-4-8:{tier:opus,input_tokens:86,output_tokens:33578,cache_creation_input_tokens:1937776,cache_read_input_tokens:5721654,messages:43,cost_usd:47.435421000000005}},byTier:{haiku:0,sonnet:0,opus:47.435421000000005,unknown:0},total_cost_usd:47.435421000000005,capturedAt:2026-07-17T09:57:05.560Z}",
+      "createdAt": 1784282239033,
+      "updatedAt": 1784282239033,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 626
+    },
+    {
+      "key": "session-3c102392-45fa-43db-a619-fc0feb6bc7c8",
+      "namespace": "cost-tracking",
+      "value": "{sessionId:3c102392-45fa-43db-a619-fc0feb6bc7c8,cwd:C:\\\\Users\\\\JeremyWilliams,startedAt:2026-07-17T05:26:57.702Z,endedAt:2026-07-17T06:29:04.314Z,messageCount:61,byModel:{claude-opus-4-8:{tier:opus,input_tokens:122,output_tokens:116864,cache_creation_input_tokens:537011,cache_read_input_tokens:10592037,messages:61,cost_usd:34.72364175000003}},byTier:{haiku:0,sonnet:0,opus:34.72364175000003,unknown:0},total_cost_usd:34.72364175000003,capturedAt:2026-07-17T06:29:04.943Z}",
+      "createdAt": 1784269746633,
+      "updatedAt": 1784269746633,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 473
+    },
+    {
+      "key": "session-23897111-d776-488d-9875-f62aa14d3dc6",
+      "namespace": "cost-tracking",
+      "value": "{sessionId:23897111-d776-488d-9875-f62aa14d3dc6,cwd:C:\\\\Users\\\\JeremyWilliams,startedAt:2026-07-16T07:58:09.443Z,endedAt:2026-07-16T17:46:59.995Z,messageCount:194,byModel:{claude-opus-4-8:{tier:opus,input_tokens:388,output_tokens:283027,cache_creation_input_tokens:1554830,cache_read_input_tokens:35098112,messages:194,cost_usd:103.03307549999991}},byTier:{haiku:0,sonnet:0,opus:103.03307549999991,unknown:0},total_cost_usd:103.03307549999991,capturedAt:2026-07-16T17:47:00.259Z}",
+      "createdAt": 1784224028472,
+      "updatedAt": 1784224028472,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 479
+    },
+    {
+      "key": "session-ea82f8f1-32f6-405a-a625-a7bf577d7403",
+      "namespace": "cost-tracking",
+      "value": "{sessionId:ea82f8f1-32f6-405a-a625-a7bf577d7403,cwd:C:\\\\Users\\\\JeremyWilliams,startedAt:2026-07-16T06:21:46.959Z,endedAt:2026-07-16T06:24:32.592Z,messageCount:19,byModel:{claude-opus-4-8:{tier:opus,input_tokens:38,output_tokens:7596,cache_creation_input_tokens:201757,cache_read_input_tokens:2082526,messages:19,cost_usd:7.47700275}},byTier:{haiku:0,sonnet:0,opus:7.47700275,unknown:0},total_cost_usd:7.47700275,capturedAt:2026-07-16T06:24:32.913Z}",
+      "createdAt": 1784183081910,
+      "updatedAt": 1784183081910,
+      "accessCount": 0,
+      "hasEmbedding": true,
+      "size": 448
+    }
+  ]
+}

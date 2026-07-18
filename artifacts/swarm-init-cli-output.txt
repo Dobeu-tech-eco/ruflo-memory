@@ -1,0 +1,24 @@
+npm notice run new-dobeu-net@0.1.0 npx
+npm notice run cli swarm init --topology hierarchical --max-agents 8 --strategy specialized --v3-mode
+[INFO] V3 Mode: Using hierarchical-mesh topology with 15-agent coordination
+
+[INFO] Initializing swarm...
+  Creating coordination topology...
+  Initializing memory namespace...
+  Setting up communication channels...
+  Enabling Flash Attention (2.49x-7.47x speedup)...
+  Configuring AgentDB integration (150x faster)...
+  Initializing SONA learning system...
+
++------------+----------------------------+
+| Property   | Value                      |
++------------+----------------------------+
+| Swarm ID   | swarm-1784182072890-t6grp8 |
+| Topology   | hierarchical-mesh          |
+| Max Agents | 8                          |
+| Auto Scale | Enabled                    |
+| Protocol   | message-bus                |
+| V3 Mode    | Enabled                    |
++------------+----------------------------+
+
+[OK] Swarm initialized successfully

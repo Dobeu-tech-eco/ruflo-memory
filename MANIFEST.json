@@ -1,0 +1,533 @@
+{
+  "generated_at": "2026-07-17T19:02:35.8518149-04:00",
+  "archive_root": "C:\\Users\\JeremyWilliams\\ruflo-memory",
+  "window_hours": 24,
+  "session_count": 54,
+  "memory_md_count": 9,
+  "swarm": {
+    "swarm_id": "swarm-1784182072890-t6grp8",
+    "session_id": "60d55dc5-4807-4af9-8681-4fcd049d19a9",
+    "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+    "source_session": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\60d55dc5-4807-4af9-8681-4fcd049d19a9.jsonl",
+    "archive_session": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\60d55dc5-4807-4af9-8681-4fcd049d19a9.jsonl",
+    "artifact_png": "C:\\Users\\JeremyWilliams\\ruflo-memory\\artifacts\\swarm-1784182072890-t6grp8.png",
+    "artifact_svg": "C:\\Users\\JeremyWilliams\\ruflo-memory\\artifacts\\swarm-1784182072890-t6grp8.svg",
+    "topology": "hierarchical-mesh",
+    "max_agents": 8,
+    "strategy": "specialized",
+    "note": "Session mtime outside 24h window; force-copied for recover-swarm"
+  },
+  "by_project": [
+    {
+      "project": "C--Users-JeremyWilliams",
+      "count": 17
+    },
+    {
+      "project": "C--Users-JeremyWilliams--claude",
+      "count": 2
+    },
+    {
+      "project": "C--Users-JeremyWilliams-repos",
+      "count": 4
+    },
+    {
+      "project": "C--Users-JeremyWilliams-repos-dts-contract-engine",
+      "count": 6
+    },
+    {
+      "project": "C--Users-JeremyWilliams-repos-dts-contract-engine--devfleet-worktrees-session-31902c04",
+      "count": 1
+    },
+    {
+      "project": "C--Users-JeremyWilliams-repos-ecc",
+      "count": 2
+    },
+    {
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "count": 22
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "9eff580b-7494-42cf-95db-286f0966cbb2",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\9eff580b-7494-42cf-95db-286f0966cbb2.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\9eff580b-7494-42cf-95db-286f0966cbb2.jsonl",
+      "mtime": "2026-07-17T18:49:59.097-04:00",
+      "size": 1419710
+    },
+    {
+      "session_id": "50b7b862-6381-4abb-8ee2-d91f345e4128",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\50b7b862-6381-4abb-8ee2-d91f345e4128.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\50b7b862-6381-4abb-8ee2-d91f345e4128.jsonl",
+      "mtime": "2026-07-17T14:51:07.5649168-04:00",
+      "size": 186613
+    },
+    {
+      "session_id": "4953027f-e9c6-45cf-90d7-8ffbf3d215db",
+      "project": "C--Users-JeremyWilliams-repos",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos\\4953027f-e9c6-45cf-90d7-8ffbf3d215db.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos\\4953027f-e9c6-45cf-90d7-8ffbf3d215db.jsonl",
+      "mtime": "2026-07-17T14:50:15.2084233-04:00",
+      "size": 397568
+    },
+    {
+      "session_id": "ac5f5631-9032-4eaa-bc27-2bf30e67f3b6",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\ac5f5631-9032-4eaa-bc27-2bf30e67f3b6.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\ac5f5631-9032-4eaa-bc27-2bf30e67f3b6.jsonl",
+      "mtime": "2026-07-17T14:49:15.0483512-04:00",
+      "size": 8858696
+    },
+    {
+      "session_id": "f146fa17-bdd5-47e3-86d5-c3947752c715",
+      "project": "C--Users-JeremyWilliams-repos-ecc",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-ecc\\f146fa17-bdd5-47e3-86d5-c3947752c715.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-ecc\\f146fa17-bdd5-47e3-86d5-c3947752c715.jsonl",
+      "mtime": "2026-07-17T14:49:01.006-04:00",
+      "size": 607410
+    },
+    {
+      "session_id": "3c102392-45fa-43db-a619-fc0feb6bc7c8",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\3c102392-45fa-43db-a619-fc0feb6bc7c8.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\3c102392-45fa-43db-a619-fc0feb6bc7c8.jsonl",
+      "mtime": "2026-07-17T14:40:50.3498211-04:00",
+      "size": 6380699
+    },
+    {
+      "session_id": "fba9ea5c-e398-4b28-be09-b9c25c3bbf83",
+      "project": "C--Users-JeremyWilliams-repos",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos\\fba9ea5c-e398-4b28-be09-b9c25c3bbf83.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos\\fba9ea5c-e398-4b28-be09-b9c25c3bbf83.jsonl",
+      "mtime": "2026-07-17T13:57:20.6667834-04:00",
+      "size": 248829
+    },
+    {
+      "session_id": "0c7cd320-ad88-462e-bdba-c6e57f739fa4",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\0c7cd320-ad88-462e-bdba-c6e57f739fa4.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\0c7cd320-ad88-462e-bdba-c6e57f739fa4.jsonl",
+      "mtime": "2026-07-17T12:17:35.43-04:00",
+      "size": 734505
+    },
+    {
+      "session_id": "d9337726-fba1-40ce-a418-bd875c6e2dca",
+      "project": "C--Users-JeremyWilliams-repos-dts-contract-engine",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-dts-contract-engine\\d9337726-fba1-40ce-a418-bd875c6e2dca.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-dts-contract-engine\\d9337726-fba1-40ce-a418-bd875c6e2dca.jsonl",
+      "mtime": "2026-07-17T11:52:04.687-04:00",
+      "size": 1103252
+    },
+    {
+      "session_id": "751f3f75-0179-4802-b904-e57f9ccb6c62",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\751f3f75-0179-4802-b904-e57f9ccb6c62.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\751f3f75-0179-4802-b904-e57f9ccb6c62.jsonl",
+      "mtime": "2026-07-17T11:39:25.591-04:00",
+      "size": 6828711
+    },
+    {
+      "session_id": "agent-a706c5e509ed71b0d",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\0c7cd320-ad88-462e-bdba-c6e57f739fa4\\subagents\\workflows\\wf_28246391-b9e\\agent-a706c5e509ed71b0d.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\agent-a706c5e509ed71b0d.jsonl",
+      "mtime": "2026-07-17T10:58:10.6439385-04:00",
+      "size": 197704
+    },
+    {
+      "session_id": "fd9e8499-8718-4c20-903f-a159fc3a2eb8",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\fd9e8499-8718-4c20-903f-a159fc3a2eb8.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\fd9e8499-8718-4c20-903f-a159fc3a2eb8.jsonl",
+      "mtime": "2026-07-17T10:58:06.8892749-04:00",
+      "size": 634851
+    },
+    {
+      "session_id": "agent-acompany-surface-d534ca0a7b536ea6",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\ac5f5631-9032-4eaa-bc27-2bf30e67f3b6\\subagents\\agent-acompany-surface-d534ca0a7b536ea6.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\agent-acompany-surface-d534ca0a7b536ea6.jsonl",
+      "mtime": "2026-07-17T10:21:49.1578765-04:00",
+      "size": 792592
+    },
+    {
+      "session_id": "agent-aadmin-panel-13b26bfdffae3116",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\ac5f5631-9032-4eaa-bc27-2bf30e67f3b6\\subagents\\agent-aadmin-panel-13b26bfdffae3116.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\agent-aadmin-panel-13b26bfdffae3116.jsonl",
+      "mtime": "2026-07-17T10:17:51.3471194-04:00",
+      "size": 840152
+    },
+    {
+      "session_id": "agent-aassets-surface-7b4e9fb33c6d31ee",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\ac5f5631-9032-4eaa-bc27-2bf30e67f3b6\\subagents\\agent-aassets-surface-7b4e9fb33c6d31ee.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\agent-aassets-surface-7b4e9fb33c6d31ee.jsonl",
+      "mtime": "2026-07-17T10:16:40.6927134-04:00",
+      "size": 841561
+    },
+    {
+      "session_id": "9ba1b6e4-069c-42c3-b922-966773aaf649",
+      "project": "C--Users-JeremyWilliams-repos",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos\\9ba1b6e4-069c-42c3-b922-966773aaf649.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos\\9ba1b6e4-069c-42c3-b922-966773aaf649.jsonl",
+      "mtime": "2026-07-17T09:53:05.9501307-04:00",
+      "size": 253065
+    },
+    {
+      "session_id": "7f9c4f4a-7fce-4ce9-b473-93ed1eb22cc6",
+      "project": "C--Users-JeremyWilliams-repos",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos\\7f9c4f4a-7fce-4ce9-b473-93ed1eb22cc6.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos\\7f9c4f4a-7fce-4ce9-b473-93ed1eb22cc6.jsonl",
+      "mtime": "2026-07-17T09:51:47.2010595-04:00",
+      "size": 244094
+    },
+    {
+      "session_id": "b5b17247-cf36-4143-af5d-db23647de10b",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\b5b17247-cf36-4143-af5d-db23647de10b.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\b5b17247-cf36-4143-af5d-db23647de10b.jsonl",
+      "mtime": "2026-07-17T09:49:37.8727367-04:00",
+      "size": 287252
+    },
+    {
+      "session_id": "a26fc5f8-a288-4105-bc75-d59b83fe9ea7",
+      "project": "C--Users-JeremyWilliams-repos-dts-contract-engine",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-dts-contract-engine\\a26fc5f8-a288-4105-bc75-d59b83fe9ea7.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-dts-contract-engine\\a26fc5f8-a288-4105-bc75-d59b83fe9ea7.jsonl",
+      "mtime": "2026-07-17T09:47:58.768674-04:00",
+      "size": 311218
+    },
+    {
+      "session_id": "5af70aba-8f6c-4c33-bf0f-24889f039a02",
+      "project": "C--Users-JeremyWilliams-repos-dts-contract-engine",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-dts-contract-engine\\5af70aba-8f6c-4c33-bf0f-24889f039a02.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-dts-contract-engine\\5af70aba-8f6c-4c33-bf0f-24889f039a02.jsonl",
+      "mtime": "2026-07-17T09:44:17.6442653-04:00",
+      "size": 323709
+    },
+    {
+      "session_id": "agent-a3840238c212b3926",
+      "project": "C--Users-JeremyWilliams-repos-dts-contract-engine",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-dts-contract-engine\\d9337726-fba1-40ce-a418-bd875c6e2dca\\subagents\\agent-a3840238c212b3926.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-dts-contract-engine\\agent-a3840238c212b3926.jsonl",
+      "mtime": "2026-07-17T09:43:28.5691862-04:00",
+      "size": 453632
+    },
+    {
+      "session_id": "journal",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\0c7cd320-ad88-462e-bdba-c6e57f739fa4\\subagents\\workflows\\wf_28246391-b9e\\journal.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\journal.jsonl",
+      "mtime": "2026-07-17T09:35:40.3084733-04:00",
+      "size": 11555
+    },
+    {
+      "session_id": "agent-a929b1251352bc155",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\0c7cd320-ad88-462e-bdba-c6e57f739fa4\\subagents\\workflows\\wf_28246391-b9e\\agent-a929b1251352bc155.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\agent-a929b1251352bc155.jsonl",
+      "mtime": "2026-07-17T09:35:40.2501742-04:00",
+      "size": 343148
+    },
+    {
+      "session_id": "agent-a7c6d5a60317f839b",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\0c7cd320-ad88-462e-bdba-c6e57f739fa4\\subagents\\workflows\\wf_28246391-b9e\\agent-a7c6d5a60317f839b.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\agent-a7c6d5a60317f839b.jsonl",
+      "mtime": "2026-07-17T09:33:27.0421058-04:00",
+      "size": 453746
+    },
+    {
+      "session_id": "agent-a83cc73c03514899a",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\0c7cd320-ad88-462e-bdba-c6e57f739fa4\\subagents\\workflows\\wf_28246391-b9e\\agent-a83cc73c03514899a.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\agent-a83cc73c03514899a.jsonl",
+      "mtime": "2026-07-17T09:24:10.1203629-04:00",
+      "size": 348272
+    },
+    {
+      "session_id": "agent-af6b44b8273e348b1",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\0c7cd320-ad88-462e-bdba-c6e57f739fa4\\subagents\\workflows\\wf_28246391-b9e\\agent-af6b44b8273e348b1.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\agent-af6b44b8273e348b1.jsonl",
+      "mtime": "2026-07-17T09:20:07.2204196-04:00",
+      "size": 201807
+    },
+    {
+      "session_id": "9f5a36cf-2894-452f-a383-0ac4938ed78d",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\9f5a36cf-2894-452f-a383-0ac4938ed78d.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\9f5a36cf-2894-452f-a383-0ac4938ed78d.jsonl",
+      "mtime": "2026-07-17T09:18:55.7422795-04:00",
+      "size": 270262
+    },
+    {
+      "session_id": "ef0c4bb4-c74e-4f6a-a0df-8b7c31162e4f",
+      "project": "C--Users-JeremyWilliams-repos-dts-contract-engine",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-dts-contract-engine\\ef0c4bb4-c74e-4f6a-a0df-8b7c31162e4f.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-dts-contract-engine\\ef0c4bb4-c74e-4f6a-a0df-8b7c31162e4f.jsonl",
+      "mtime": "2026-07-17T09:14:14.5862612-04:00",
+      "size": 302571
+    },
+    {
+      "session_id": "2cc6ff3b-247c-4400-881e-a5fe7d4387c0",
+      "project": "C--Users-JeremyWilliams-repos-dts-contract-engine--devfleet-worktrees-session-31902c04",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-dts-contract-engine--devfleet-worktrees-session-31902c04\\2cc6ff3b-247c-4400-881e-a5fe7d4387c0.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-dts-contract-engine--devfleet-worktrees-session-31902c04\\2cc6ff3b-247c-4400-881e-a5fe7d4387c0.jsonl",
+      "mtime": "2026-07-17T09:13:13.7169511-04:00",
+      "size": 285788
+    },
+    {
+      "session_id": "92472b78-1ced-4b4d-a6db-cd6a8892451e",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\92472b78-1ced-4b4d-a6db-cd6a8892451e.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\92472b78-1ced-4b4d-a6db-cd6a8892451e.jsonl",
+      "mtime": "2026-07-17T09:09:09.6562747-04:00",
+      "size": 258797
+    },
+    {
+      "session_id": "d5ae5d4d-a26f-4ad9-8ee0-9bf7dc33173f",
+      "project": "C--Users-JeremyWilliams-repos-dts-contract-engine",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-dts-contract-engine\\d5ae5d4d-a26f-4ad9-8ee0-9bf7dc33173f.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-dts-contract-engine\\d5ae5d4d-a26f-4ad9-8ee0-9bf7dc33173f.jsonl",
+      "mtime": "2026-07-17T08:57:34.7088502-04:00",
+      "size": 285311
+    },
+    {
+      "session_id": "2777f2f7-716a-4628-98d0-46dd3722d0c9",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\2777f2f7-716a-4628-98d0-46dd3722d0c9.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\2777f2f7-716a-4628-98d0-46dd3722d0c9.jsonl",
+      "mtime": "2026-07-17T07:00:25.4551324-04:00",
+      "size": 482089
+    },
+    {
+      "session_id": "14451012-3d2d-4661-b21d-afd40c56f120",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\14451012-3d2d-4661-b21d-afd40c56f120.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\14451012-3d2d-4661-b21d-afd40c56f120.jsonl",
+      "mtime": "2026-07-17T06:59:43.9242031-04:00",
+      "size": 1803943
+    },
+    {
+      "session_id": "5bb0641c-0629-47e1-a184-97c0dd33e586",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\5bb0641c-0629-47e1-a184-97c0dd33e586.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\5bb0641c-0629-47e1-a184-97c0dd33e586.jsonl",
+      "mtime": "2026-07-17T06:59:18.4080183-04:00",
+      "size": 6331773
+    },
+    {
+      "session_id": "103b4803-c7eb-4eb2-a542-34987fbade3a",
+      "project": "C--Users-JeremyWilliams--claude",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams--claude\\103b4803-c7eb-4eb2-a542-34987fbade3a.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams--claude\\103b4803-c7eb-4eb2-a542-34987fbade3a.jsonl",
+      "mtime": "2026-07-17T06:50:32.0572667-04:00",
+      "size": 257248
+    },
+    {
+      "session_id": "290df060-f3eb-4d6f-aaec-6d50bedc0472",
+      "project": "C--Users-JeremyWilliams--claude",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams--claude\\290df060-f3eb-4d6f-aaec-6d50bedc0472.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams--claude\\290df060-f3eb-4d6f-aaec-6d50bedc0472.jsonl",
+      "mtime": "2026-07-17T06:35:55.2684742-04:00",
+      "size": 375753
+    },
+    {
+      "session_id": "d1cda0c5-cf57-4d8d-bb1c-3e644acfd4ef",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\d1cda0c5-cf57-4d8d-bb1c-3e644acfd4ef.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\d1cda0c5-cf57-4d8d-bb1c-3e644acfd4ef.jsonl",
+      "mtime": "2026-07-17T05:57:48.3699113-04:00",
+      "size": 367851
+    },
+    {
+      "session_id": "agent-aaudit-ux-d1a58019a626c5c2",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\5bb0641c-0629-47e1-a184-97c0dd33e586\\subagents\\agent-aaudit-ux-d1a58019a626c5c2.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\agent-aaudit-ux-d1a58019a626c5c2.jsonl",
+      "mtime": "2026-07-17T02:44:12.9902767-04:00",
+      "size": 757741
+    },
+    {
+      "session_id": "agent-aaudit-architecture-3d94e8c3aff66730",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\5bb0641c-0629-47e1-a184-97c0dd33e586\\subagents\\agent-aaudit-architecture-3d94e8c3aff66730.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\agent-aaudit-architecture-3d94e8c3aff66730.jsonl",
+      "mtime": "2026-07-17T02:44:06.2154993-04:00",
+      "size": 363153
+    },
+    {
+      "session_id": "agent-aaudit-simplify-adfd015e86d5953a",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\5bb0641c-0629-47e1-a184-97c0dd33e586\\subagents\\agent-aaudit-simplify-adfd015e86d5953a.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\agent-aaudit-simplify-adfd015e86d5953a.jsonl",
+      "mtime": "2026-07-17T02:43:33.1445911-04:00",
+      "size": 142057
+    },
+    {
+      "session_id": "agent-a88fd7e096cc29d7f",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\751f3f75-0179-4802-b904-e57f9ccb6c62\\subagents\\agent-a88fd7e096cc29d7f.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\agent-a88fd7e096cc29d7f.jsonl",
+      "mtime": "2026-07-17T02:33:35.4857399-04:00",
+      "size": 309761
+    },
+    {
+      "session_id": "agent-aaudit-security-aa6fd39afbef1a31",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\5bb0641c-0629-47e1-a184-97c0dd33e586\\subagents\\agent-aaudit-security-aa6fd39afbef1a31.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\agent-aaudit-security-aa6fd39afbef1a31.jsonl",
+      "mtime": "2026-07-17T02:33:05.6614137-04:00",
+      "size": 637947
+    },
+    {
+      "session_id": "agent-aaudit-performance-4e052b87f8258995",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\5bb0641c-0629-47e1-a184-97c0dd33e586\\subagents\\agent-aaudit-performance-4e052b87f8258995.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\agent-aaudit-performance-4e052b87f8258995.jsonl",
+      "mtime": "2026-07-17T02:23:20.8164518-04:00",
+      "size": 540707
+    },
+    {
+      "session_id": "agent-aaudit-cost-8bd6d06b9b7c95a8",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\5bb0641c-0629-47e1-a184-97c0dd33e586\\subagents\\agent-aaudit-cost-8bd6d06b9b7c95a8.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\agent-aaudit-cost-8bd6d06b9b7c95a8.jsonl",
+      "mtime": "2026-07-17T02:21:56.2016225-04:00",
+      "size": 229622
+    },
+    {
+      "session_id": "agent-a6eae5e7de78f596b",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\751f3f75-0179-4802-b904-e57f9ccb6c62\\subagents\\agent-a6eae5e7de78f596b.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\agent-a6eae5e7de78f596b.jsonl",
+      "mtime": "2026-07-17T01:56:51.7853779-04:00",
+      "size": 372592
+    },
+    {
+      "session_id": "agent-a2d7c0a5fd41328a1",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\3c102392-45fa-43db-a619-fc0feb6bc7c8\\subagents\\agent-a2d7c0a5fd41328a1.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\agent-a2d7c0a5fd41328a1.jsonl",
+      "mtime": "2026-07-17T01:49:59.6390334-04:00",
+      "size": 630587
+    },
+    {
+      "session_id": "agent-a26d32bafb31e8c2c",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\3c102392-45fa-43db-a619-fc0feb6bc7c8\\subagents\\agent-a26d32bafb31e8c2c.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\agent-a26d32bafb31e8c2c.jsonl",
+      "mtime": "2026-07-17T01:37:39.1378341-04:00",
+      "size": 672237
+    },
+    {
+      "session_id": "agent-aaefd80623c1718ae",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\3c102392-45fa-43db-a619-fc0feb6bc7c8\\subagents\\agent-aaefd80623c1718ae.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\agent-aaefd80623c1718ae.jsonl",
+      "mtime": "2026-07-17T01:36:50.2429407-04:00",
+      "size": 411197
+    },
+    {
+      "session_id": "e8e0cd13-52cb-4a96-b196-a031528dab89",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\e8e0cd13-52cb-4a96-b196-a031528dab89.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\e8e0cd13-52cb-4a96-b196-a031528dab89.jsonl",
+      "mtime": "2026-07-17T00:48:39.9942255-04:00",
+      "size": 358674
+    },
+    {
+      "session_id": "049d1a1b-a842-47c4-9bc8-f1238531adf0",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\049d1a1b-a842-47c4-9bc8-f1238531adf0.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\049d1a1b-a842-47c4-9bc8-f1238531adf0.jsonl",
+      "mtime": "2026-07-17T00:48:32.8859348-04:00",
+      "size": 335260
+    },
+    {
+      "session_id": "dca5ed74-7871-44ec-b361-afad26d31a4f",
+      "project": "C--Users-JeremyWilliams-repos-ecc",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-ecc\\dca5ed74-7871-44ec-b361-afad26d31a4f.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-ecc\\dca5ed74-7871-44ec-b361-afad26d31a4f.jsonl",
+      "mtime": "2026-07-17T00:41:09.1713377-04:00",
+      "size": 1615961
+    },
+    {
+      "session_id": "dddfe972-36d3-4981-9188-fb7769600363",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\dddfe972-36d3-4981-9188-fb7769600363.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\dddfe972-36d3-4981-9188-fb7769600363.jsonl",
+      "mtime": "2026-07-17T00:25:03.7276829-04:00",
+      "size": 393770
+    },
+    {
+      "session_id": "fc48c702-a0e3-4f14-be20-dfdca5701605",
+      "project": "C--Users-JeremyWilliams",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\fc48c702-a0e3-4f14-be20-dfdca5701605.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams\\fc48c702-a0e3-4f14-be20-dfdca5701605.jsonl",
+      "mtime": "2026-07-17T00:22:53.2269028-04:00",
+      "size": 398516
+    },
+    {
+      "session_id": "d6ba36df-d9ea-481a-87db-e29ba97de1ac",
+      "project": "C--Users-JeremyWilliams-repos-new-dobeu-net",
+      "source_path": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-new-dobeu-net\\d6ba36df-d9ea-481a-87db-e29ba97de1ac.jsonl",
+      "archive_path": "C:\\Users\\JeremyWilliams\\ruflo-memory\\sessions\\C--Users-JeremyWilliams-repos-new-dobeu-net\\d6ba36df-d9ea-481a-87db-e29ba97de1ac.jsonl",
+      "mtime": "2026-07-16T19:39:37.2025524-04:00",
+      "size": 647223
+    }
+  ],
+  "memory_md": [
+    {
+      "size": 2310,
+      "source": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\memory\\agentbox-ruflo-windows-setup.md",
+      "archive": "C:\\Users\\JeremyWilliams\\ruflo-memory\\memory-md\\C--Users-JeremyWilliams\\memory\\agentbox-ruflo-windows-setup.md"
+    },
+    {
+      "size": 2841,
+      "source": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\memory\\claude-config-restore-2026-07.md",
+      "archive": "C:\\Users\\JeremyWilliams\\ruflo-memory\\memory-md\\C--Users-JeremyWilliams\\memory\\claude-config-restore-2026-07.md"
+    },
+    {
+      "size": 1233,
+      "source": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\memory\\claude-flow-v3-core-repo.md",
+      "archive": "C:\\Users\\JeremyWilliams\\ruflo-memory\\memory-md\\C--Users-JeremyWilliams\\memory\\claude-flow-v3-core-repo.md"
+    },
+    {
+      "size": 674,
+      "source": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\memory\\MEMORY.md",
+      "archive": "C:\\Users\\JeremyWilliams\\ruflo-memory\\memory-md\\C--Users-JeremyWilliams\\memory\\MEMORY.md"
+    },
+    {
+      "size": 2692,
+      "source": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams\\memory\\wsl-claude-config-mirror.md",
+      "archive": "C:\\Users\\JeremyWilliams\\ruflo-memory\\memory-md\\C--Users-JeremyWilliams\\memory\\wsl-claude-config-mirror.md"
+    },
+    {
+      "size": 976,
+      "source": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-ikram-meme-and-co\\memory\\ikram-deferred-prod-secrets.md",
+      "archive": "C:\\Users\\JeremyWilliams\\ruflo-memory\\memory-md\\C--Users-JeremyWilliams-repos-ikram-meme-and-co\\memory\\ikram-deferred-prod-secrets.md"
+    },
+    {
+      "size": 1258,
+      "source": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-ikram-meme-and-co\\memory\\ikram-domain-and-deploy-pattern.md",
+      "archive": "C:\\Users\\JeremyWilliams\\ruflo-memory\\memory-md\\C--Users-JeremyWilliams-repos-ikram-meme-and-co\\memory\\ikram-domain-and-deploy-pattern.md"
+    },
+    {
+      "size": 2129,
+      "source": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-ikram-meme-and-co\\memory\\ikram-supabase-vercel-deploy.md",
+      "archive": "C:\\Users\\JeremyWilliams\\ruflo-memory\\memory-md\\C--Users-JeremyWilliams-repos-ikram-meme-and-co\\memory\\ikram-supabase-vercel-deploy.md"
+    },
+    {
+      "size": 613,
+      "source": "C:\\Users\\JeremyWilliams\\.claude\\projects\\C--Users-JeremyWilliams-repos-ikram-meme-and-co\\memory\\MEMORY.md",
+      "archive": "C:\\Users\\JeremyWilliams\\ruflo-memory\\memory-md\\C--Users-JeremyWilliams-repos-ikram-meme-and-co\\memory\\MEMORY.md"
+    }
+  ],
+  "swarm_force_included": true,
+  "archived_session_file_count": 55
+}
