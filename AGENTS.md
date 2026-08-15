@@ -4,9 +4,11 @@ Guidance for Codex in `Dobeu-tech-eco/ruflo-memory`.
 
 This repository is a **Ruflo / Claude Code session + AgentDB memory archive**, not a product app. Treat every `sessions/`, `memory-md/`, and `exports/` file as sensitive continuity data.
 
-Org-wide Codex system prompt: [`codex/dobeu-tech-eco-system-prompt.md`](./codex/dobeu-tech-eco-system-prompt.md)
+Codex Cloud custom instructions (the only Cloud paste): [`codex/cloud-custom-instructions.md`](./codex/cloud-custom-instructions.md)
 
-How to apply that prompt to other `Dobeu-tech-eco/*` repos: [`codex/README.md`](./codex/README.md)
+Org-wide Codex fallback (on-demand; do not paste into Cloud): [`codex/dobeu-tech-eco-system-prompt.md`](./codex/dobeu-tech-eco-system-prompt.md)
+
+How to apply that pack to other `Dobeu-tech-eco/*` repos: [`codex/README.md`](./codex/README.md)
 
 ## What this repo is
 
@@ -28,4 +30,13 @@ How to apply that prompt to other `Dobeu-tech-eco/*` repos: [`codex/README.md`](
 ## Learned preferences
 
 - When asked for a Codex / Claude / Gemini instruction file, keep architecture in one canonical document and make the other filenames thin pointers.
+- Codex Cloud custom instructions stay under 2 KiB. Durable repo rules go in `AGENTS.md`; org stack/gotchas stay in `codex/dobeu-tech-eco-system-prompt.md` and are read on demand.
 - Review findings belong in the PR / chat report. Do not silently rewrite archived memories to match a review.
+
+## Code Review Rules
+
+### Archive hygiene
+
+- Do not add new raw session transcripts unless the operator asked to archive them.
+- Do not copy credentials, tokens, or key prefixes from transcripts into new files.
+  Safe path: redact, tell the operator to rotate, and leave existing archive files in place.
