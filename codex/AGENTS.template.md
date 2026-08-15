@@ -4,7 +4,11 @@ Guidance for Codex (and any other `AGENTS.md`-reading agent) in this `Dobeu-tech
 
 **Canonical architecture lives in [`CLAUDE.md`](./CLAUDE.md) when that file exists.** Read it first. This file stays a thin pointer plus Codex-specific operational notes.
 
-Org-wide Codex system prompt (copy into Codex Cloud custom instructions, or keep next to this file):
+Codex Cloud custom instructions (paste **only** this; do not paste the org fallback):
+
+- [`codex/cloud-custom-instructions.md`](https://github.com/Dobeu-tech-eco/ruflo-memory/blob/main/codex/cloud-custom-instructions.md)
+
+Org-wide fallback (on-demand stack defaults and gotchas — not a Cloud paste):
 
 - [`codex/dobeu-tech-eco-system-prompt.md`](https://github.com/Dobeu-tech-eco/ruflo-memory/blob/main/codex/dobeu-tech-eco-system-prompt.md)
 
@@ -24,4 +28,8 @@ If guidance changes, update `CLAUDE.md` (or this file if there is no `CLAUDE.md`
 
 ## Cursor / Codex Cloud notes
 
-Put non-obvious cloud caveats here (missing Docker, env-var name drift, accepted engine warnings). Do not copy the full command table out of `CLAUDE.md`.
+Put non-obvious cloud caveats here (missing Docker, env-var name drift, accepted engine warnings). Do not copy the full command table out of `CLAUDE.md`. Cloud uses this file for lint/test commands.
+
+## Code Review Rules
+
+Start with two or three consequential, repo-specific checks. Leave format/lint to CI. Codex GitHub review (`@codex review`) reads this section.
