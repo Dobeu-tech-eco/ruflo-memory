@@ -9,6 +9,7 @@ Org-wide instructions for OpenAI Codex (CLI and Codex Cloud) when working in any
 | [`cloud-custom-instructions.md`](./cloud-custom-instructions.md) | **The only Cloud paste.** Codex Cloud → Settings → General → Custom instructions. Keep under 2 KiB. |
 | [`dobeu-tech-eco-system-prompt.md`](./dobeu-tech-eco-system-prompt.md) | On-demand org fallback (stack defaults, Windows/WSL gotchas). Do **not** paste this into Cloud. |
 | [`AGENTS.template.md`](./AGENTS.template.md) | Drop-in `AGENTS.md` for a product repo that already has `CLAUDE.md`. |
+| [`security-threat-model.md`](./security-threat-model.md) | Paste into Codex Security cloud threat-model scoping for **this** archive repo. |
 
 ## Install in a product repo
 

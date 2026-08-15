@@ -13,6 +13,7 @@ Also hosts the **org-wide Codex system prompt** for every `Dobeu-tech-eco/*` rep
 
 - Cloud paste (keep short): [`codex/cloud-custom-instructions.md`](./codex/cloud-custom-instructions.md)
 - Org fallback (do not paste into Cloud): [`codex/dobeu-tech-eco-system-prompt.md`](./codex/dobeu-tech-eco-system-prompt.md)
+- Codex Security scan scoping: [`codex/security-threat-model.md`](./codex/security-threat-model.md)
 - Drop-in `AGENTS.md` for product repos: [`codex/AGENTS.template.md`](./codex/AGENTS.template.md)
 - Install notes: [`codex/README.md`](./codex/README.md)
 - This repo's Codex entry: [`AGENTS.md`](./AGENTS.md)

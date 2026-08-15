@@ -44,6 +44,23 @@ class InstructionBudgetTests(unittest.TestCase):
         self.assertNotIn("## 12. Hard refusals", text)
         self.assertNotIn("Hard refusals", text)
 
+    def test_threat_model_is_archive_not_product_app(self) -> None:
+        text = (PACK / "security-threat-model.md").read_text(encoding="utf-8")
+        self.assertIn("Are there any attack vectors you are most concerned about?", text)
+        self.assertIn("Which parts of the application should we focus on?", text)
+        self.assertIn("Is there anything else we should know about this repository?", text)
+        self.assertIn("session/memory archive", text.lower())
+        self.assertIn("not a product app", text.lower())
+        lowered = text.lower()
+        self.assertIn("secret", lowered)
+        self.assertIn("prompt injection", lowered)
+        self.assertIn("sessions/", lowered)
+        self.assertIn("https://learn.chatgpt.com/docs/security/threat-model", text)
+        self.assertNotRegex(text, r"sk-[A-Za-z0-9]{10,}")
+        self.assertNotRegex(text, r"ghp_[A-Za-z0-9]+")
+        self.assertNotRegex(text, r"xox[baprs]-")
+        self.assertNotIn("ck_wNN", text)
+
     def test_oversized_cloud_paste_fails(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             dest = Path(tmp)

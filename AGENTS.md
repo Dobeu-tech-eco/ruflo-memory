@@ -40,3 +40,4 @@ How to apply that pack to other `Dobeu-tech-eco/*` repos: [`codex/README.md`](./
 - Do not add new raw session transcripts unless the operator asked to archive them.
 - Do not copy credentials, tokens, or key prefixes from transcripts into new files.
   Safe path: redact, tell the operator to rotate, and leave existing archive files in place.
+- Codex Security cloud scans should use [`codex/security-threat-model.md`](./codex/security-threat-model.md). Do not invent a product-app threat model (auth, billing, uploads) for this archive.
